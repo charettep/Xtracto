@@ -1,6 +1,6 @@
 \
 import os, tarfile, zipfile, io, tempfile, shutil
-from xtrak.scanner import scan_directory, is_probably_archive
+from Xtracto.scanner import scan_directory, is_probably_archive
 
 def make_sample_tree(root):
     # Create files
